@@ -3,8 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+div {
+    margin: 300px;
+    padding: 50px;
+    width: 30px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: rotate(100deg);
+    transition: width 2s;
+  }
+  div:hover {
+    width: 700px;
+  }
 
-.transform{
+
+/* .transform{
     width: 150px;
     height: 100px;
     background-color:green ;
@@ -41,7 +55,7 @@
 
     }
 
-}
+} */
 
 
 /* .head{
